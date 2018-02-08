@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "lib": ["es6", "dom"],
+    "sourceMap": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": true,
+    "baseUrl": "src",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "alwaysStrict": true,
+    "noImplicitThis": true
+  },
+  "exclude": ["node_modules"]
+}

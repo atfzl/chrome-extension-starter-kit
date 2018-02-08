@@ -1,0 +1,18 @@
+{
+  "name": "chrome-extension-starter-kit",
+  "version": "1.0.0",
+  "description": "Starter kit for creating chrome extension",
+  "main": "index.js",
+  "author": "atif5801@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/webpack": "^3.8.5",
+    "awesome-typescript-loader": "^3.4.1",
+    "prettier": "^1.10.2",
+    "ts-node": "^4.1.0",
+    "tslint": "^5.9.1",
+    "tslint-config-prettier": "^1.7.0",
+    "typescript": "^2.7.1",
+    "webpack": "^3.10.0"
+  }
+}

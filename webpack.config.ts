@@ -1,15 +1,20 @@
-import * as webpack from 'webpack';
 import * as path from 'path';
+import * as webpack from 'webpack';
+import * as CopyWebpackPlugin from 'copy-webpack-plugin';
 
 const SRC_PATH = path.resolve(__dirname, './src');
 const DIST_PATH = path.resolve(__dirname, './dist');
 
 const config: webpack.Configuration = {
   context: SRC_PATH,
-  entry: './index.ts',
+  entry: {
+    background: './background',
+    content: './content',
+    inject: './inject',
+  },
   output: {
     path: DIST_PATH,
-    filename: 'bundle.js',
+    filename: '[name].bundle.js',
   },
   resolve: {
     extensions: ['.js', '.ts', '.tsx'],
@@ -22,6 +27,7 @@ const config: webpack.Configuration = {
       },
     ],
   },
+  plugins: [new CopyWebpackPlugin([{ from: './assets/manifest.json' }])],
 };
 
 export default config;

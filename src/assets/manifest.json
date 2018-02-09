@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Starter Kit",
+  "description": "Chrome Extension Starter Kit",
+  "version": "1.0",
+  "permissions": ["<all_urls>", "activeTab"],
+  "web_accessible_resources": ["inject.bundle.js"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.bundle.js"]
+    }
+  ]
+}

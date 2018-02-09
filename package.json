@@ -6,8 +6,11 @@
   "author": "atif5801@gmail.com",
   "license": "MIT",
   "devDependencies": {
+    "@types/chrome": "^0.0.59",
+    "@types/copy-webpack-plugin": "^4.0.1",
     "@types/webpack": "^3.8.5",
     "awesome-typescript-loader": "^3.4.1",
+    "copy-webpack-plugin": "^4.4.1",
     "prettier": "^1.10.2",
     "ts-node": "^4.1.0",
     "tslint": "^5.9.1",

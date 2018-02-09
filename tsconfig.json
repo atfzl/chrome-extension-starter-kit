@@ -13,7 +13,8 @@
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
     "alwaysStrict": true,
-    "noImplicitThis": true
+    "noImplicitThis": true,
+    "allowJs": true
   },
   "exclude": ["node_modules"]
 }

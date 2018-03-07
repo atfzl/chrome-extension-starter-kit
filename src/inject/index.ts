@@ -22,7 +22,10 @@ xhook.after((request: any, response: any) => {
         { text: 'Iball Mouse' },
       ],
     });
-  }
 
-  window.postMessage({ source: 'api-mock', payload: response.text }, '*');
+    window.postMessage(
+      { source: 'api-mock', payload: JSON.stringify(response.text) },
+      '*',
+    );
+  }
 });

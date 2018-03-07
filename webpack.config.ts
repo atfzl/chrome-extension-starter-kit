@@ -12,6 +12,7 @@ const config: webpack.Configuration = {
     background: './background',
     content: './content',
     inject: './inject',
+    devtool: './devtool',
   },
   output: {
     path: DIST_PATH,

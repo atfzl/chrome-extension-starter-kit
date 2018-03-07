@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "atif5801@gmail.com",
   "license": "MIT",
+  "scripts": {
+    "start": "webpack --watch"
+  },
   "devDependencies": {
     "@types/chrome": "^0.0.59",
     "@types/copy-webpack-plugin": "^4.0.1",
@@ -17,5 +20,8 @@
     "tslint-config-prettier": "^1.7.0",
     "typescript": "^2.7.1",
     "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "mimic": "^2.0.2"
   }
 }

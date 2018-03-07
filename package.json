@@ -11,10 +11,12 @@
   "devDependencies": {
     "@types/chrome": "^0.0.59",
     "@types/copy-webpack-plugin": "^4.0.1",
+    "@types/redux-logger": "^3.0.5",
     "@types/webpack": "^3.8.5",
     "awesome-typescript-loader": "^3.4.1",
     "copy-webpack-plugin": "^4.4.1",
     "prettier": "^1.10.2",
+    "redux-logger": "^3.0.6",
     "ts-node": "^4.1.0",
     "tslint": "^5.9.1",
     "tslint-config-prettier": "^1.7.0",
@@ -22,6 +24,8 @@
     "webpack": "^3.10.0"
   },
   "dependencies": {
-    "mimic": "^2.0.2"
+    "react-chrome-redux": "^1.5.1",
+    "redux": "^3.7.2",
+    "xhook": "^1.4.7"
   }
 }

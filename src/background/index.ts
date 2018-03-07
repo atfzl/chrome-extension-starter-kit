@@ -1,10 +1,7 @@
-// chrome.tabs.onUpdated.addListener((tabId, changeInfo) => {
-//   console.log(changeInfo);
-//   if (changeInfo.status === 'loading') {
-//     chrome.tabs.executeScript(tabId, {
-//       code: 'console.log("bar")',
-//     });
-//   }
-// });
+import { wrapStore } from 'react-chrome-redux';
 
-// console.log('foo');
+import store from './store';
+
+wrapStore(store, {
+  portName: 'api-mock',
+});

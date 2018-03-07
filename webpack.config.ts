@@ -27,7 +27,7 @@ const config: webpack.Configuration = {
       },
     ],
   },
-  plugins: [new CopyWebpackPlugin([{ from: './assets/manifest.json' }])],
+  plugins: [new CopyWebpackPlugin([{ from: './assets/' }])],
 };
 
 export default config;

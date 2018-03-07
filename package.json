@@ -10,18 +10,19 @@
   },
   "devDependencies": {
     "@types/chrome": "^0.0.59",
-    "@types/copy-webpack-plugin": "^4.0.1",
+    "@types/copy-webpack-plugin": "^4.4.0",
     "@types/redux-logger": "^3.0.5",
-    "@types/webpack": "^3.8.5",
-    "awesome-typescript-loader": "^3.4.1",
-    "copy-webpack-plugin": "^4.4.1",
+    "@types/webpack": "^4.0.0",
+    "awesome-typescript-loader": "^5.0.0-0",
+    "copy-webpack-plugin": "^4.5.0",
     "prettier": "^1.10.2",
     "redux-logger": "^3.0.6",
     "ts-node": "^4.1.0",
     "tslint": "^5.9.1",
     "tslint-config-prettier": "^1.7.0",
     "typescript": "^2.7.1",
-    "webpack": "^3.10.0"
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.10"
   },
   "dependencies": {
     "react-chrome-redux": "^1.5.1",

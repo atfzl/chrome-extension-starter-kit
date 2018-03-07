@@ -7,6 +7,7 @@ const DIST_PATH = path.resolve(__dirname, './dist');
 
 const config: webpack.Configuration = {
   context: SRC_PATH,
+  mode: 'development',
   entry: {
     background: './background',
     content: './content',
